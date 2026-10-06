@@ -1,0 +1,8 @@
+''' Count an Element
+Count how many times a particular element occurs using count().'''
+
+list = [10,20,30,40,50,10,10,10,10]
+
+count = list.count(10) # count method count how many times a perticular element occured.
+
+print(count)

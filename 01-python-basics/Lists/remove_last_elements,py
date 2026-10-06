@@ -1,0 +1,8 @@
+''' Remove Last Element
+Remove the last element using pop() '''
+
+fruits = ['Apple','Orange','Banana','Strawberry', 'Cheery']
+
+fruits.pop() #pop() method removes the last element of the list
+
+print(f'List after removing the last element of the list: {fruits}')
