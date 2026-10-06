@@ -1,0 +1,12 @@
+''' Add a New Key-Value Pair
+Create a dictionary and add a new key-value pair to it.'''
+
+employee = {
+    'name' : 'Pooja',
+    'age' : 24,
+    'email' : 'thakurpooja60596@gmail.com'
+}
+
+employee['city'] = 'Nagpur'
+
+print(employee)
