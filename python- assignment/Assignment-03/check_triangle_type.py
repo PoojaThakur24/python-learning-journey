@@ -1,0 +1,15 @@
+"""Write a program to check whether the triangle is
+equilateral, isosceles or scalene triangle."""
+
+side1 = int(input('Enter the first side: '))
+side2 = int(input('Enter the second side: '))
+side3 = int(input('Enter the third side: '))
+
+if side1 == side2 == side3:
+    print('Triangle is Equilateral.')
+
+elif side1 == side2 or side2 == side3 or side1 == side3:
+    print('Triangle is Isosceles.')
+
+else:
+    print('Triangle is Scalene.')
